@@ -16,7 +16,9 @@ But, when we are deleting the columns or feature variable we should be extra car
 ## Compiling, Training, and Evaluating the Model
 Compilation helps us to define loss and accuracy metrics. During the training of our model, we have considered Cross-Entropy as loss function and Adam as optimizer which is normal as basic neural network.
 
-We have taken 44 number_input_features, 80 hidden_nodes_layer1 and 30 hidden_nodes_layer2 for this projects. And we have taken reLu activation for fist hidden and second hidden layer and sigmoid for the output layer.
+We have taken 44 number_input_features, 80 hidden_nodes_layer1 and 30 hidden_nodes_layer2 for this projects. And we have taken reLu activation for fist hidden, second hidden layer and sigmoid for the output layer.
+
+We created a callback that saves the model's weights every 5 epochs for our project.
 
 # Summary
 The Neural Network model seems to be moderate because of its accuracy. We can try other supervised models to evaluate and analyse the performance.
