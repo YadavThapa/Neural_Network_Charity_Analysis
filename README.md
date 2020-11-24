@@ -25,3 +25,7 @@ The Neural Network model seems to be moderate because of its accuracy. We can tr
 
 # Recommendation
 We can use Random Forest as it is very simple and easy to measure the performance of the model for the same dataset since Neural Network is quite difficult to tune with number of hidden layer and it is very time consuming process to evaluate and analyse the performance.
+
+Neural Networks are better for image classification, text processing or Text generation or sequential data processing. We can use advance ANN( Artificial Neural Network), Recurrent Neural Network( RNN) or CNN( Convolution Neural Network). 
+
+Hence I recommed to use RF instead of NN for this given datasets.
